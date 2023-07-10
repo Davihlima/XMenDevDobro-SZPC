@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjetoXMen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um Personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name = "Cyclops" data-description = "Dispara raio pelos zói">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Cyclops">
+                </li>
+                <li class="personagem" id="jean-grey" data-name = "Jean Grey" data-description = "Extremamente apelona - destrói a p##@ toda se quiser... se fosse você nao encarava..."">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Jean">
+                </li>
+                <li class="personagem" id="lince-negra" data-name = "Kitty Pride" data-description = "Fica intangível">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Lince Negra">
+                </li>
+                <li class="personagem" id="tempestade" data-name = "Storm" data-description = "Controla as forças da natureza, ou seja, voa, dispara raio, etc... era vista como deusa por uma comunidade indígena">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Storm">
+                </li>
+                <li class="personagem" id="vampira" data-name = "Rogue" data-description = "Rouba os poderes dos outros, mas já é superforte e voa..."">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Rogue">
+                </li>
+                <li class="personagem" id="wolverine" data-name = "Wolverine" data-description = "Tem garras e fator de cura, além de ser badass">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Wolverine">
+                </li>
+                <li class="personagem" id="noturno" data-name = "NightCrawler" data-description = "De longe um dos visuais mais irados, se garante na porrada e se teleporta">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Noturno">
+                </li>
+                <li class="personagem" id="magneto" data-name = "Magneto" data-description = "Outro apelão... se quiser pode até tirar a Terra de órbita... brinca!">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Magneto">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Cyclops">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Dispara raio dos zói</p>
+            </div>
+
+            
+
+        </section>
+
+    </main>
+<script src="./src/js/index.js"></script>
+</body>
+
+</html>
